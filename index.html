@@ -1,0 +1,564 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>DoJoin Clone</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <nav class="navbar">
+        <div class="navbar-left">
+            <div class="logo">Do<span>Join</span></div>
+            <div class="search-container">
+                <input type="text" placeholder="Search" class="search-input">
+                <button class="search-btn">
+                    <span class="search-icon">&#128269;</span>
+                </button>
+            </div>
+        </div>
+        <div class="navbar-right">
+            <a href="#" class="sell"> <img src="https://img.icons8.com/ios-filled/20/000000/like--v1.png" style="vertical-align:middle;margin-right:4px;opacity:0.7;">Sell On DoJoin</a>
+            <div class="login-dropdown">
+                <button class="login-btn">Log In <span class="arrow">&#9662;</span></button>
+                <div class="login-menu">
+                    <a href="#"><span class="menu-icon">&#128274;</span> Log In <span class="right-arrow">&#8250;</span></a>
+                    <a href="#"><span class="menu-icon">&#127760;</span> Language <span class="right-arrow">&#8250;</span></a>
+                    <a href="#"><span class="menu-icon">&#10067;</span> Help <span class="right-arrow">&#8250;</span></a>
+                    <a href="#"><span class="menu-icon">&#8505;</span> About us <span class="right-arrow">&#8250;</span></a>
+                    <a href="#"><span class="menu-icon">&#128104;&#8205;&#128187;</span> Support <span class="right-arrow">&#8250;</span></a>
+                    <a href="#" class="download-app"><span class="menu-icon" style="color:#f23b6c">&#128241;</span> <span style="color:#f23b6c">Download App</span> <span class="right-arrow" style="color:#f23b6c">&#8250;</span></a>
+                </div>
+            </div>
+            <button class="signup-btn">Sign Up</button>
+        </div>
+    </nav>
+    <div class="categories-bar">
+        <button class="categories-btn"><span class="menu-icon">&#9776;</span> Categories</button>
+        <div class="categories-dropdown">
+            <div class="categories-grid">
+                <div class="category-item"><img src="assets/10060.svg"><span>Attraction</span></div>
+                <div class="category-item"><img src="assets/10059.webp"><span>Parks</span></div>
+                <div class="category-item"><img src="assets/10061.webp"><span>Yacht</span></div>
+                <div class="category-item"><img src="assets/10058.png"><span>Holiday Packages</span></div>
+                <div class="category-item"><img src="assets/10057.svg"><span>Water Adventures</span></div>
+                <div class="category-item"><img src="assets/10055.svg"><span>Hotel</span></div>
+                <div class="category-item"><img src="assets/10056.svg"><span>Car Rental</span></div>
+                <div class="category-item"><img src="assets/10054.svg"><span>Dinner Cruise</span></div>
+                <div class="category-item"><img src="assets/10032.jpg"><span>Sky Adventures</span></div>
+                <div class="category-item"><img src="assets/10052.png"><span>Visa & Services</span></div>
+                <div class="category-item"><img src="assets/10023.png"><span>City Tours</span></div>
+                <div class="category-item"><img src="assets/10050.png"><span>Adventures</span></div>
+                <div class="category-item"><img src="assets/10018.jpg"><span>Airport transfers</span></div>
+                <div class="category-item"><img src="assets/10022.svg"><span>Safari</span></div>
+                <div class="category-item"><img src="assets/10026.jpg"><span>Restaurants</span></div>
+                <div class="category-item"><img src="assets/10037.jpg"><span>Live concerts & Shows</span></div>
+            </div>
+        </div>
+        <span class="divider">|</span>
+        <a href="#">Summer</a>
+        <a href="#">Combo Offers</a>
+        <a href="#">Water Adventures</a>
+        <a href="#">Visa Elite Destinations</a>
+        <a href="#">Luxury Car Rental</a>
+        <a href="#">Staycations</a>
+        <a href="#">Fixed Group Departure</a>
+    </div>
+    <section class="hero-section">
+        <video class="hero-video" src="assets/video.mp4" autoplay loop muted playsinline></video>
+        <div class="hero-overlay">
+            <h1>Summer Vibes<br>Explore the<br>Unexplored!</h1>
+        </div>
+    </section>
+    <section class="adventure-section">
+        <div class="adventure-header">
+            <h2>Find your adventure easily</h2>
+            <div class="adventure-arrows">
+                <button class="adventure-arrow left">&#8592;</button>
+                <button class="adventure-arrow right">&#8594;</button>
+            </div>
+        </div>
+        <div class="adventure-cards-container">
+            <div class="adventure-cards">
+                <div class="adventure-card">
+                    <img src="assets/10032.jpg" alt="Dubai">
+                    <div class="adventure-card-label dubai">Dubai</div>
+                </div>
+                <div class="adventure-card">
+                    <img src="assets/10023.png" alt="Abu Dhabi">
+                    <div class="adventure-card-label abudhabi">Abu Dhabi</div>
+                </div>
+                <div class="adventure-card">
+                    <img src="assets/10022.svg" alt="Sharjah">
+                    <div class="adventure-card-label sharjah">Sharjah</div>
+                </div>
+                <div class="adventure-card">
+                    <img src="assets/10041.jpg" alt="Ras Al Khaimah">
+                    <div class="adventure-card-label rak">Ras Al Khaimah</div>
+                </div>
+                <div class="adventure-card">
+                    <img src="assets/10050.png" alt="Fujairah">
+                    <div class="adventure-card-label fujairah">Fujairah</div>
+                </div>
+                <div class="adventure-card">
+                    <img src="assets/10018.jpg" alt="Ajman">
+                    <div class="adventure-card-label ajman">Ajman</div>
+                </div>
+                <div class="adventure-card">
+                    <img src="assets/10013.jpg" alt="Umm Al Quwain">
+                    <div class="adventure-card-label umm">Umm Al Quwain</div>
+                </div>
+            </div>
+        </div>
+    </section>
+    <section class="slider-section">
+        <div class="slider-container">
+            <div class="slider-slide active">
+                <img src="assets/10041.jpg" alt="House of Hype">
+                <div class="slider-overlay">
+                    <h3>HOUSE OF HYPE</h3>
+                    <p>Dubai's Most Social Media-Worthy Destination</p>
+                    <button class="slider-btn">Book Now</button>
+                </div>
+            </div>
+            <div class="slider-slide">
+                <img src="assets/10037.jpg" alt="Concerts">
+                <div class="slider-overlay">
+                    <h3>LIVE CONCERTS</h3>
+                    <p>Experience the best shows in the city</p>
+                    <button class="slider-btn">Book Now</button>
+                </div>
+            </div>
+            <div class="slider-slide">
+                <img src="assets/10026.jpg" alt="Restaurants">
+                <div class="slider-overlay">
+                    <h3>FINE DINING</h3>
+                    <p>Discover top restaurants and cuisine</p>
+                    <button class="slider-btn">Book Now</button>
+                </div>
+            </div>
+        </div>
+        <div class="slider-dots">
+            <span class="slider-dot active"></span>
+            <span class="slider-dot"></span>
+            <span class="slider-dot"></span>
+        </div>
+    </section>
+    <section class="categories-scroll-section">
+        <div class="categories-scroll-header">
+            <h2>Categories</h2>
+            <div class="categories-scroll-arrows">
+                <button class="categories-scroll-arrow left">&#8592;</button>
+                <button class="categories-scroll-arrow right">&#8594;</button>
+            </div>
+        </div>
+        <div class="categories-scroll-cards-container">
+            <div class="categories-scroll-cards">
+                <div class="categories-scroll-card">
+                    <img src="assets/10032.jpg" alt="Attraction">
+                    <div class="categories-scroll-label">Attraction</div>
+                </div>
+                <div class="categories-scroll-card">
+                    <img src="assets/10045.png" alt="Parks">
+                    <div class="categories-scroll-label">Parks</div>
+                </div>
+                <div class="categories-scroll-card">
+                    <img src="assets/10041.jpg" alt="Yacht">
+                    <div class="categories-scroll-label">Yacht</div>
+                </div>
+                <div class="categories-scroll-card">
+                    <img src="assets/10058.png" alt="Holiday Packages">
+                    <div class="categories-scroll-label">Holiday Packages</div>
+                </div>
+                <div class="categories-scroll-card">
+                    <img src="assets/10018.jpg" alt="Water Adventures">
+                    <div class="categories-scroll-label">Water Adventures</div>
+                </div>
+                <div class="categories-scroll-card">
+                    <img src="assets/10026.jpg" alt="Hotel">
+                    <div class="categories-scroll-label">Hotel</div>
+                </div>
+                <div class="categories-scroll-card">
+                    <img src="assets/10056.svg" alt="Car Rental">
+                    <div class="categories-scroll-label">Car Rental</div>
+                </div>
+                <div class="categories-scroll-card">
+                    <img src="assets/10054.svg" alt="Dinner Cruise">
+                    <div class="categories-scroll-label">Dinner Cruise</div>
+                </div>
+            </div>
+        </div>
+    </section>
+    <section class="trending-section">
+        <div class="trending-header">
+            <h2><span class="trending-icon">🥇</span> Trending</h2>
+            <div class="trending-arrows">
+                <button class="trending-arrow left">&#8592;</button>
+                <button class="trending-arrow right">&#8594;</button>
+            </div>
+        </div>
+        <div class="trending-cards-container">
+            <div class="trending-cards">
+                <div class="trending-card">
+                    <img src="assets/10032.jpg" alt="Burj Al Arab">
+                    <div class="trending-card-info">
+                        <div class="trending-card-title">Burj Al Arab</div>
+                        <div class="trending-card-rating"><span class="star">★</span> 4.5 <span class="count">(12)</span></div>
+                        <div class="trending-card-price">From <span class="price">฿ 245.00</span> / Person</div>
+                    </div>
+                </div>
+                <div class="trending-card">
+                    <img src="assets/10045.png" alt="The Green Planet">
+                    <div class="trending-card-info">
+                        <div class="trending-card-title">The Green Planet</div>
+                        <div class="trending-card-rating"><span class="star">★</span> 4.6 <span class="count">(48)</span></div>
+                        <div class="trending-card-price">From <span class="price">฿ 129.00</span> / Person</div>
+                    </div>
+                </div>
+                <div class="trending-card">
+                    <img src="assets/10041.jpg" alt="At The Top, Burj Khalifa Sky Level 148 +125 + 124">
+                    <div class="trending-card-info">
+                        <div class="trending-card-title">At The Top, Burj Khalifa Sky Level 148 +125 + 124</div>
+                        <div class="trending-card-rating"><span class="star">★</span> 4.4 <span class="count">(4)</span></div>
+                        <div class="trending-card-price">From <span class="price">฿ 390.00</span> / Person</div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+    <section class="popular-section">
+        <div class="popular-header">
+            <h2>Popular Things This Week</h2>
+        </div>
+        <div class="popular-cards">
+            <div class="popular-card">
+                <img src="assets/10060.svg" alt="Dubai Bustronomy">
+                <div class="popular-card-title">Dubai Bustronomy</div>
+                <div class="popular-card-price">From <span class="price">฿ 225.00</span> / Person</div>
+                <div class="popular-card-oldprice"><span class="old">฿ 250.00</span> <span class="discount">10%</span></div>
+            </div>
+            <div class="popular-card">
+                <img src="assets/10023.png" alt="Full Day Dubai City Tour">
+                <div class="popular-card-title">Full Day Dubai City Tour</div>
+                <div class="popular-card-price">From <span class="price">฿ 99.00</span> / Person</div>
+            </div>
+            <div class="popular-card">
+                <img src="assets/10036.jpg" alt="Explore Khorfakkan: Full-Day Guided Tour">
+                <div class="popular-card-title">Explore Khorfakkan: Full-Day Guided Tour</div>
+                <div class="popular-card-price">From <span class="price">฿ 120.00</span> / Person</div>
+            </div>
+            <div class="popular-card popular-card-cta">
+                <div class="popular-cta-text">See All New Activities</div>
+                <div class="popular-cta-arrow">&#8594;</div>
+            </div>
+        </div>
+    </section>
+    <section class="indoor-section">
+        <div class="indoor-header">
+            <h2>Dubai indoor attractions</h2>
+        </div>
+        <div class="indoor-cards">
+            <div class="indoor-card">
+                <img src="assets/10052.png" alt="Museum of Illusions">
+                <div class="indoor-card-title">Museum of Illusions</div>
+                <div class="indoor-card-price">From <span class="price">฿ 90.00</span> / Person</div>
+            </div>
+            <div class="indoor-card">
+                <img src="assets/10032.jpg" alt="Burj Al Arab">
+                <div class="indoor-card-title">Burj Al Arab</div>
+                <div class="indoor-card-price">From <span class="price">฿ 245.00</span> / Person</div>
+            </div>
+            <div class="indoor-card">
+                <img src="assets/10037.jpg" alt="La Perle by Dragone Show">
+                <div class="indoor-card-title">La Perle by Dragone Show</div>
+                <div class="indoor-card-price">From <span class="price">฿ 269.00</span> / Person</div>
+            </div>
+            <div class="indoor-card">
+                <img src="assets/10048.jpg" alt="IMG Worlds of Adventure">
+                <div class="indoor-card-title">IMG Worlds of Adventure</div>
+                <div class="indoor-card-price">From <span class="price">฿ 365.00</span> / Person</div>
+            </div>
+        </div>
+    </section>
+    <section class="mustdo-section">
+        <div class="mustdo-header">
+            <h2>Dubai Must-Dos</h2>
+            <div class="mustdo-arrows">
+                <button class="mustdo-arrow left">&#8592;</button>
+                <button class="mustdo-arrow right">&#8594;</button>
+            </div>
+        </div>
+        <div class="mustdo-cards-container">
+            <div class="mustdo-cards">
+                <div class="mustdo-card">
+                    <img src="assets/10051.png" alt="Madame Tussauds Dubai">
+                    <div class="mustdo-card-title">Madame Tussauds Dubai</div>
+                    <div class="mustdo-card-rating"><span class="star">★</span> 4.9 <span class="count">(7)</span></div>
+                </div>
+                <div class="mustdo-card">
+                    <img src="assets/10032.jpg" alt="Burj Al Arab">
+                    <div class="mustdo-card-title">Burj Al Arab</div>
+                    <div class="mustdo-card-rating"><span class="star">★</span> 4.5 <span class="count">(12)</span></div>
+                </div>
+                <div class="mustdo-card">
+                    <img src="assets/10060.svg" alt="Museum Of The Future">
+                    <div class="mustdo-card-title">Museum Of The Future</div>
+                    <div class="mustdo-card-rating"><span class="star">★</span> 4.7 <span class="count">(164)</span></div>
+                </div>
+            </div>
+        </div>
+    </section>
+    <section class="abudhabi-section">
+        <div class="abudhabi-header">
+            <h2>Abu Dhabi Must-Dos</h2>
+            <div class="abudhabi-arrows">
+                <button class="abudhabi-arrow left">&#8592;</button>
+                <button class="abudhabi-arrow right">&#8594;</button>
+            </div>
+        </div>
+        <div class="abudhabi-cards-container">
+            <div class="abudhabi-cards">
+                <div class="abudhabi-card">
+                    <img src="assets/10027.jpg" alt="Louvre Abu Dhabi">
+                    <div class="abudhabi-card-title">Louvre Abu Dhabi</div>
+                    <div class="abudhabi-card-rating"><span class="star">★</span> 4.8 <span class="count">(24)</span></div>
+                    <div class="abudhabi-card-price">From <span class="price">฿ 63.00</span> / Person</div>
+                </div>
+                <div class="abudhabi-card">
+                    <img src="assets/10039.jpg" alt="The National Aquarium Abu Dhabi">
+                    <div class="abudhabi-card-title">The National Aquarium Abu Dhabi</div>
+                    <div class="abudhabi-card-rating"><span class="star">★</span> 4.6 <span class="count">(20)</span></div>
+                    <div class="abudhabi-card-price">From <span class="price">฿ 80.00</span> / Person</div>
+                    <div class="abudhabi-card-oldprice"><span class="old">฿ 99.00</span> <span class="discount">19%</span></div>
+                </div>
+                <div class="abudhabi-card">
+                    <img src="assets/10025.jpg" alt="Qasr Al Hosn">
+                    <div class="abudhabi-card-title">Qasr Al Hosn</div>
+                    <div class="abudhabi-card-rating"><span class="star">★</span> 5 <span class="count">(2)</span></div>
+                    <div class="abudhabi-card-price">From <span class="price">฿ 30.00</span> / Person</div>
+                </div>
+            </div>
+        </div>
+    </section>
+    <section class="explore-section-2">
+        <div class="explore-cards">
+            <div class="explore-card">
+                <img src="assets/10061.webp" alt="Luxury Car Rental">
+                <div class="explore-card-title">Luxury Car Rental</div>
+            </div>
+            <div class="explore-card">
+                <img src="assets/10050.png" alt="Sky Adventures">
+                <div class="explore-card-title">Sky Adventures</div>
+            </div>
+            <div class="explore-card">
+                <img src="assets/10035.jpg" alt="Live Concerts & Shows">
+                <div class="explore-card-title">Live Concerts & Shows</div>
+            </div>
+        </div>
+    </section>
+    <section class="testimonial-section">
+        <div class="testimonial-cards-container">
+            <div class="testimonial-cards">
+                <div class="testimonial-card">
+                    <div class="testimonial-image-wrap">
+                        <img src="assets/10031.jpg" alt="Burj Khalifa At the Top Level 125 + 124">
+                        <div class="testimonial-title">Burj Khalifa At the Top Level 125 + 124</div>
+                        <div class="testimonial-rating"><span class="star">★</span> 5 <span class="count">(176)</span></div>
+                        <div class="testimonial-arrow">&#8594;</div>
+                    </div>
+                    <div class="testimonial-avatar-wrap">
+                        <img class="testimonial-avatar" src="assets/10053.png" alt="Uttam Singh">
+                    </div>
+                    <div class="testimonial-user">Uttam Singh</div>
+                    <div class="testimonial-date">1/19/2025 9:16:57 AM +00:00</div>
+                    <div class="testimonial-stars">★★★★★</div>
+                    <div class="testimonial-quote">&#10077;</div>
+                    <div class="testimonial-text">Nice</div>
+                </div>
+                <div class="testimonial-card">
+                    <div class="testimonial-image-wrap">
+                        <img src="assets/10061.webp" alt="2 Hours Sightseeing Yacht Tour">
+                        <div class="testimonial-title">2 Hours Sightseeing Yacht Tour</div>
+                        <div class="testimonial-rating"><span class="star">★</span> 5 <span class="count">(118)</span></div>
+                        <div class="testimonial-arrow">&#8594;</div>
+                    </div>
+                    <div class="testimonial-avatar-wrap">
+                        <img class="testimonial-avatar" src="assets/10049.png" alt="Pratik Rusia">
+                    </div>
+                    <div class="testimonial-user">Pratik Rusia</div>
+                    <div class="testimonial-date">1/21/2025 8:34:37 AM +00:00</div>
+                    <div class="testimonial-stars">★★★★★</div>
+                    <div class="testimonial-quote">&#10077;</div>
+                    <div class="testimonial-text">Awesome</div>
+                </div>
+                <div class="testimonial-card">
+                    <div class="testimonial-image-wrap">
+                        <img src="assets/10046.png" alt="Luxury 4x4 Pick Up and Drop Off with Evening Desert Safari">
+                        <div class="testimonial-title">Luxury 4x4 Pick Up and Drop Off with Evening Desert Safari</div>
+                        <div class="testimonial-rating"><span class="star">★</span> 5 <span class="count">(86)</span></div>
+                        <div class="testimonial-arrow">&#8594;</div>
+                    </div>
+                    <div class="testimonial-avatar-wrap">
+                        <img class="testimonial-avatar" src="assets/10047.png" alt="liza sahipa">
+                    </div>
+                    <div class="testimonial-user">liza sahipa</div>
+                    <div class="testimonial-date">1/25/2025 9:48:39 PM +00:00</div>
+                    <div class="testimonial-stars">★★★★★</div>
+                    <div class="testimonial-quote">&#10077;</div>
+                    <div class="testimonial-text">I so enjoy our trip thank you 🙏</div>
+                </div>
+                <div class="testimonial-card">
+                    <div class="testimonial-image-wrap">
+                        <img src="assets/10037.jpg" alt="La Perle by Dragone Show">
+                        <div class="testimonial-title">La Perle by Dragone Show</div>
+                        <div class="testimonial-rating"><span class="star">★</span> 4.8 <span class="count">(99)</span></div>
+                        <div class="testimonial-arrow">&#8594;</div>
+                    </div>
+                    <div class="testimonial-avatar-wrap">
+                        <img class="testimonial-avatar" src="assets/10045.png" alt="Amit Kumar">
+                    </div>
+                    <div class="testimonial-user">Amit Kumar</div>
+                    <div class="testimonial-date">1/22/2025 10:12:00 AM +00:00</div>
+                    <div class="testimonial-stars">★★★★★</div>
+                    <div class="testimonial-quote">&#10077;</div>
+                    <div class="testimonial-text">Spectacular show!</div>
+                </div>
+                <div class="testimonial-card">
+                    <div class="testimonial-image-wrap">
+                        <img src="assets/10018.jpg" alt="Water Adventures">
+                        <div class="testimonial-title">Water Adventures</div>
+                        <div class="testimonial-rating"><span class="star">★</span> 4.7 <span class="count">(54)</span></div>
+                        <div class="testimonial-arrow">&#8594;</div>
+                    </div>
+                    <div class="testimonial-avatar-wrap">
+                        <img class="testimonial-avatar" src="assets/10056.svg" alt="Riya Patel">
+                    </div>
+                    <div class="testimonial-user">Riya Patel</div>
+                    <div class="testimonial-date">1/23/2025 11:45:00 AM +00:00</div>
+                    <div class="testimonial-stars">★★★★★</div>
+                    <div class="testimonial-quote">&#10077;</div>
+                    <div class="testimonial-text">So much fun!</div>
+                </div>
+                <div class="testimonial-card">
+                    <div class="testimonial-image-wrap">
+                        <img src="assets/10026.jpg" alt="Fine Dining">
+                        <div class="testimonial-title">Fine Dining</div>
+                        <div class="testimonial-rating"><span class="star">★</span> 4.9 <span class="count">(33)</span></div>
+                        <div class="testimonial-arrow">&#8594;</div>
+                    </div>
+                    <div class="testimonial-avatar-wrap">
+                        <img class="testimonial-avatar" src="assets/10055.svg" alt="Sana Khan">
+                    </div>
+                    <div class="testimonial-user">Sana Khan</div>
+                    <div class="testimonial-date">1/24/2025 7:30:00 PM +00:00</div>
+                    <div class="testimonial-stars">★★★★★</div>
+                    <div class="testimonial-quote">&#10077;</div>
+                    <div class="testimonial-text">Delicious food and great service.</div>
+                </div>
+                <div class="testimonial-card">
+                    <div class="testimonial-image-wrap">
+                        <img src="assets/10041.jpg" alt="Yacht Party">
+                        <div class="testimonial-title">Yacht Party</div>
+                        <div class="testimonial-rating"><span class="star">★</span> 5 <span class="count">(21)</span></div>
+                        <div class="testimonial-arrow">&#8594;</div>
+                    </div>
+                    <div class="testimonial-avatar-wrap">
+                        <img class="testimonial-avatar" src="assets/10059.webp" alt="Vikas Sharma">
+                    </div>
+                    <div class="testimonial-user">Vikas Sharma</div>
+                    <div class="testimonial-date">1/26/2025 6:00:00 PM +00:00</div>
+                    <div class="testimonial-stars">★★★★★</div>
+                    <div class="testimonial-quote">&#10077;</div>
+                    <div class="testimonial-text">Unforgettable experience!</div>
+                </div>
+            </div>
+        </div>
+        <div class="testimonial-dots">
+            <span class="testimonial-dot active"></span>
+            <span class="testimonial-dot"></span>
+            <span class="testimonial-dot"></span>
+            <span class="testimonial-dot"></span>
+            <span class="testimonial-dot"></span>
+            <span class="testimonial-dot"></span>
+            <span class="testimonial-dot"></span>
+        </div>
+    </section>
+    <section class="download-app-section">
+        <div class="download-app-content">
+            <div class="download-app-left">
+                <div class="download-app-logo">Do<span>Join</span></div>
+                <div>
+                    <div class="download-app-title">Download App</div>
+                    <div class="download-app-desc">Download the app to join your favorite activities more easily and quickly.</div>
+                </div>
+            </div>
+            <div class="download-app-right">
+                <a href="#" target="_blank"><img class="store-btn" src="https://developer.apple.com/assets/elements/badges/download-on-the-app-store.svg" alt="App Store"></a>
+                <a href="#" target="_blank"><img class="store-btn" src="https://upload.wikimedia.org/wikipedia/commons/7/78/Google_Play_Store_badge_EN.svg" alt="Google Play"></a>
+            </div>
+        </div>
+    </section>
+    <footer class="footer-section">
+        <div class="footer-top">
+            <div class="footer-social-support">
+                <div class="footer-social">
+                    <a href="#"><img src="assets/10021.svg" alt="Instagram" class="footer-icon"></a>
+                    <a href="#"><img src="assets/10001.png" alt="LinkedIn" class="footer-icon"></a>
+                    <a href="#"><img src="assets/10003.png" alt="Twitter" class="footer-icon"></a>
+                    <a href="#"><img src="assets/10004.jpg" alt="Facebook" class="footer-icon"></a>
+                </div>
+                <div class="footer-support">
+                    <div class="footer-support-row">
+                        <img src="assets/10005.jpg" alt="WhatsApp" class="footer-icon-sm">
+                        <img src="assets/10006.jpg" alt="Phone" class="footer-icon-sm">
+                        <span class="footer-support-label">SUPPORT NUMBER</span>
+                    </div>
+                    <div class="footer-support-number">
+                        <span class="footer-support-main">800</span>
+                        <span class="footer-support-sub">36 56 46<br>DOJOIN</span>
+                    </div>
+                </div>
+            </div>
+            <div class="footer-links">
+                <div>
+                    <a href="#">About Us</a><br>
+                    <a href="#">FAQ</a><br>
+                    <a href="#">Story</a><br>
+                    <a href="#">Become a vendor</a>
+                </div>
+                <div>
+                    <a href="#">Cookies Policy</a><br>
+                    <a href="#">Download App</a><br>
+                    <a href="#">Privacy Policy</a><br>
+                    <a href="#">Blog</a>
+                </div>
+                <div>
+                    <a href="#">Help Center</a><br>
+                    <a href="#">Terms of Service</a><br>
+                    <a href="#">Law Enforcement Resources</a><br>
+                    <a href="#">Intellectual Property Policy</a>
+                </div>
+            </div>
+            <div class="footer-payments">
+                <div class="footer-pay-label">Ways you can pay</div>
+                <div class="footer-pay-icons">
+                    <img src="assets/10007.jpg" alt="Mastercard">
+                    <img src="assets/10008.jpg" alt="Visa">
+                    <img src="assets/10009.jpg" alt="UnionPay">
+                    <img src="assets/10010.jpg" alt="Apple Pay">
+                    <img src="assets/10011.jpg" alt="Tabby">
+                    <img src="assets/10012.jpg" alt="Tamara">
+                    <img src="assets/10013.jpg" alt="Google Pay">
+                </div>
+                <img src="assets/10044.png" alt="Yellow Badge" class="footer-badge">
+            </div>
+        </div>
+        <hr class="footer-divider">
+        <div class="footer-bottom">
+            <span>2025 Dojoin.com all right reserved</span>
+            <span>Powered by DoJoin <a href="#">System & Software</a></span>
+            <span>DoJoin Marketing Services LLC</span>
+        </div>
+    </footer>
+    <script src="script.js"></script>
+</body>
